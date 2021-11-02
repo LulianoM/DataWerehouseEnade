@@ -5,6 +5,7 @@ run-seed:
 	pip3 install -r requirements/dev.txt
 	clear
 	python3 download_data.py
+	python3 create_sql_database.py
 	
 
 run-seed-2:
